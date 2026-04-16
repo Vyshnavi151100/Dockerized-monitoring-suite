@@ -22,3 +22,15 @@ Dockerized-monitoring-suite:
 ── prometheus.yml
 ── requirements.txt
 ──.github/workflows/ci.yml
+
+Screenshots:
+App Output (/tasks)
+--> Python application running inside Docker, serving API responses.
+Prometheus Targets Page
+--> Prometheus successfully scraping configured services and exporters.
+Prometheus Graph (PromQL query)
+--> Real-time metrics visualization using PromQL queries in Prometheus UI.
+Grafana Dashboard
+--> Interactive dashboard visualizing application metrics using Prometheus as data source.
+Docker Containers (Docker Desktop)
+--> All project services (app, Prometheus, Grafana) running as containers.
